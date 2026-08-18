@@ -1,0 +1,20 @@
+{
+    "id": {
+        "server": "c.us",
+        "user": "919343865554",
+        "_serialized": "919343865554@c.us"
+    },
+    "number": "919343865554",
+    "isBusiness": false,
+    "labels": [],
+    "isMe": false,
+    "isUser": true,
+    "isGroup": false,
+    "isWAContact": true,
+    "isMyContact": false,
+    "isBlocked": false,
+    "about": null,
+    "countryCode": "IN",
+    "phone": "+91 93438 65554",
+    "aboutHistory": []
+}

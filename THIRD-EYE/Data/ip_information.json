@@ -1,0 +1,35 @@
+{
+    "ip": "198.0.0.1",
+    "type": "ipv4",
+    "continent_code": "NA",
+    "continent_name": "North America",
+    "country_code": "US",
+    "country_name": "United States",
+    "region_code": "FL",
+    "region_name": "Florida",
+    "city": "North Port",
+    "zip": "34291",
+    "latitude": 27.102630615234375,
+    "longitude": -82.2102279663086,
+    "msa": "35840",
+    "dma": "539",
+    "radius": "0",
+    "ip_routing_type": "fixed",
+    "connection_type": "cable",
+    "location": {
+        "geoname_id": 7169975,
+        "capital": "Washington D.C.",
+        "languages": [
+            {
+                "code": "en",
+                "name": "English",
+                "native": "English"
+            }
+        ],
+        "country_flag": "https://assets.ipstack.com/flags/us.svg",
+        "country_flag_emoji": "🇺🇸",
+        "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+        "calling_code": "1",
+        "is_eu": false
+    }
+}

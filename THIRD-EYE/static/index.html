@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THIRD-EYE — OSINT Intelligence Toolkit</title>
+  <meta name="description"
+    content="THIRD-EYE is a powerful OSINT web toolkit to gather intelligence from phone numbers, usernames, emails and IP addresses." />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+
+  <div id="app">
+
+    <header>
+      <div class="logo-row">
+        <svg class="eye-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <ellipse cx="24" cy="24" rx="20" ry="12" />
+          <circle cx="24" cy="24" r="6" />
+          <circle cx="24" cy="24" r="2.5" fill="currentColor" stroke="none" />
+          <line x1="24" y1="4" x2="24" y2="8" />
+          <line x1="24" y1="40" x2="24" y2="44" />
+        </svg>
+        <h1 class="logo-text">THIRD-EYE</h1>
+      </div>
+      <div class="logo-badge">OSINT Intelligence Toolkit · v1.0</div>
+      <p class="tagline">Trace numbers · Enumerate Usernames · Inspect Emails · Geolocate IPs</p>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="OSINT tools">
+      <button class="tab-btn active" id="tab-phone" role="tab" aria-selected="true" aria-controls="panel-phone"
+        onclick="switchTab('phone')">
+        Phone
+      </button>
+      <button class="tab-btn" id="tab-username" role="tab" aria-selected="false" aria-controls="panel-username"
+        onclick="switchTab('username')">
+        Username
+      </button>
+      <button class="tab-btn" id="tab-email" role="tab" aria-selected="false" aria-controls="panel-email"
+        onclick="switchTab('email')">
+        Email
+      </button>
+      <button class="tab-btn" id="tab-ip" role="tab" aria-selected="false" aria-controls="panel-ip"
+        onclick="switchTab('ip')">
+        IP Address
+      </button>
+    </nav>
+
+    <section class="tab-panel active" id="panel-phone" role="tabpanel" aria-labelledby="tab-phone">
+      <div class="card">
+        <p class="card-title"> Phone Number Reconnaissance</p>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone-number">Phone Number</label>
+            <input id="phone-number" type="text" placeholder="e.g. 9876543210" autocomplete="off" />
+          </div>
+          <div class="form-group">
+            <label for="numverify-key">Numverify API Key <span
+                style="color:var(--text-3);font-weight:400;">(optional)</span></label>
+            <input id="numverify-key" type="password" placeholder="Enter key for validation" autocomplete="off" />
+          </div>
+        </div>
+        <button class="btn btn-primary" id="btn-phone" onclick="runPhone()">
+          <span class="btn-text"> Investigate</span>
+        </button>
+      </div>
+
+      <div id="phone-results" class="results-section" aria-live="polite"></div>
+    </section>
+
+
+    <section class="tab-panel" id="panel-username" role="tabpanel" aria-labelledby="tab-username">
+      <div class="card">
+        <p class="card-title"> Username Enumeration</p>
+        <div class="form-group">
+          <label for="username-input">Username</label>
+          <input id="username-input" type="text" placeholder="e.g. johndoe" autocomplete="off" />
+        </div>
+        <button class="btn btn-primary" id="btn-username" onclick="runUsername()">
+          <span class="btn-text"> Scan Platforms</span>
+        </button>
+      </div>
+
+      <div id="username-results" class="results-section" aria-live="polite"></div>
+    </section>
+
+
+    <section class="tab-panel" id="panel-email" role="tabpanel" aria-labelledby="tab-email">
+      <div class="card">
+        <p class="card-title"> Email Reconnaissance</p>
+        <div class="form-group">
+          <label for="email-input">Email Address</label>
+          <input id="email-input" type="email" placeholder="e.g. target@example.com" autocomplete="off" />
+        </div>
+        <button class="btn btn-primary" id="btn-email" onclick="runEmail()">
+          <span class="btn-text"> Investigate</span>
+        </button>
+      </div>
+
+      <div id="email-results" class="results-section" aria-live="polite"></div>
+    </section>
+
+    <section class="tab-panel" id="panel-ip" role="tabpanel" aria-labelledby="tab-ip">
+      <div class="card">
+        <p class="card-title"> IP Address Analysis</p>
+        <div class="form-group">
+          <label for="ip-input">IP Address</label>
+          <input id="ip-input" type="text" placeholder="e.g. 8.8.8.8" autocomplete="off" />
+        </div>
+        <button class="btn btn-primary" id="btn-ip" onclick="runIP()">
+          <span class="btn-text"> Geolocate</span>
+        </button>
+      </div>
+
+      <div id="ip-results" class="results-section" aria-live="polite"></div>
+    </section>
+
+    <footer>
+      <span>THIRD-EYE · OSINT Toolkit · Created by <a href="https://github.com/pwnx0tus" target="_blank"
+          rel="noopener">@PwnX0tus</a></span>
+    </footer>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+
+</html>

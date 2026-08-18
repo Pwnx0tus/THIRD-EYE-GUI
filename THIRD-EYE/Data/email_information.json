@@ -1,0 +1,335 @@
+[
+  {
+    "site": "Gravatar",
+    "url": "https://gravatar.com/681b56aaacd6e9761a2101c06d701d922612360f4acc2ff8a3d24ed6e1f052cd.json",
+    "status_code": 200,
+    "is_registered": true,
+    "response_text_snippet": "{\"entry\":[{\"hash\":\"681b56aaacd6e9761a2101c06d701d922612360f4acc2ff8a3d24ed6e1f052cd\",\"requestHash\":\"681b56aaacd6e9761a2101c06d701d922612360f4acc2ff8a3d24ed6e1f052cd\",\"profileUrl\":\"https:\\/\\/gravatar.com\\/bisenranjeet043\",\"preferredUsername\":\"bisenranjeet043\",\"thumbnailUrl\":\"https:\\/\\/2.gravatar.com\\",
+    "json_response": {
+      "entry": [
+        {
+          "hash": "681b56aaacd6e9761a2101c06d701d922612360f4acc2ff8a3d24ed6e1f052cd",
+          "requestHash": "681b56aaacd6e9761a2101c06d701d922612360f4acc2ff8a3d24ed6e1f052cd",
+          "profileUrl": "https://gravatar.com/bisenranjeet043",
+          "preferredUsername": "bisenranjeet043",
+          "thumbnailUrl": "https://2.gravatar.com/avatar/681b56aaacd6e9761a2101c06d701d922612360f4acc2ff8a3d24ed6e1f052cd",
+          "photos": [
+            {
+              "value": "https://2.gravatar.com/avatar/55eb02d1d1e34229d7bfe9b893193499",
+              "type": "thumbnail"
+            }
+          ],
+          "displayName": "Ranjeet Bisen"
+        }
+      ]
+    }
+  },
+  {
+    "site": "Adobe",
+    "url": "https://auth.services.adobe.com/signin/v2/users/accounts",
+    "status_code": 200,
+    "is_registered": true,
+    "response_text_snippet": "[{\"type\":\"individual\",\"authenticationMethods\":[{\"id\":\"google\",\"url\":\"https://adobeid-na1.services.adobe.com/renga-idprovider/social/v2/signin/google\"},{\"id\":\"apple\",\"url\":\"https://adobeid-na1.services.adobe.com/renga-idprovider/social/v2/signin/apple\"},{\"id\":\"password\",\"url\":null},{\"id\":\"otp\",\"url\":",
+    "json_response": [
+      {
+        "type": "individual",
+        "authenticationMethods": [
+          {
+            "id": "google",
+            "url": "https://adobeid-na1.services.adobe.com/renga-idprovider/social/v2/signin/google"
+          },
+          {
+            "id": "apple",
+            "url": "https://adobeid-na1.services.adobe.com/renga-idprovider/social/v2/signin/apple"
+          },
+          {
+            "id": "password",
+            "url": null
+          },
+          {
+            "id": "otp",
+            "url": null
+          }
+        ],
+        "status": {
+          "code": "active",
+          "reason": null
+        },
+        "images": {
+          "50": "https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/50",
+          "100": "https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/100",
+          "115": "https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/115",
+          "138": "https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/138",
+          "230": "https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/230",
+          "276": "https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/276"
+        },
+        "hasT2ELinked": false,
+        "lastUsedMethod": "social",
+        "lastSocialUsed": "google"
+      }
+    ]
+  },
+  {
+    "site": "Duolingo",
+    "url": "https://www.duolingo.com/2017-06-30/users?email=bisenranjeet043@gmail.com",
+    "status_code": 200,
+    "is_registered": "unknown",
+    "response_text_snippet": "{\"users\":[]}",
+    "json_response": {
+      "users": []
+    }
+  },
+  {
+    "site": "Chess.com",
+    "url": "https://www.chess.com/callback/email/available?email=bisenranjeet043@gmail.com",
+    "status_code": 226,
+    "is_registered": true,
+    "response_text_snippet": "{\"isEmailAvailable\":false,\"reason\":\"Email In Use\"}",
+    "json_response": {
+      "isEmailAvailable": false,
+      "reason": "Email In Use"
+    }
+  },
+  {
+    "site": "Notion",
+    "url": "https://www.notion.so/api/v3/getLoginOptions",
+    "status_code": 400,
+    "is_registered": "unknown",
+    "response_text_snippet": "{\"isNotionError\":true,\"errorId\":\"ada8e63e-263b-4697-8d42-542f3068e09a\",\"name\":\"UserValidationError\",\"clientData\":{\"type\":\"login_generic_error\"},\"debugMessage\":\"Login is not allowed.\",\"message\":\"Something went wrong. (400)\"}",
+    "json_response": {
+      "isNotionError": true,
+      "errorId": "ada8e63e-263b-4697-8d42-542f3068e09a",
+      "name": "UserValidationError",
+      "clientData": {
+        "type": "login_generic_error"
+      },
+      "debugMessage": "Login is not allowed.",
+      "message": "Something went wrong. (400)"
+    }
+  },
+  {
+    "site": "Spotify",
+    "url": "https://spclient.wg.spotify.com/signup/public/v1/account?validate=1&email=bisenranjeet043@gmail.com",
+    "status_code": 200,
+    "is_registered": true,
+    "response_text_snippet": "{\"status\":20,\"errors\":{\"email\":\"That email is already registered to an account.\"},\"country\":\"IN\",\"can_accept_licenses_in_one_step\":false,\"requires_marketing_opt_in\":false,\"requires_marketing_opt_in_text\":false,\"requires_tailored_ads_opt_in\":false,\"minimum_age\":13,\"country_group\":\"ASIA\",\"specific_lic",
+    "json_response": {
+      "status": 20,
+      "errors": {
+        "email": "That email is already registered to an account."
+      },
+      "country": "IN",
+      "can_accept_licenses_in_one_step": false,
+      "requires_marketing_opt_in": false,
+      "requires_marketing_opt_in_text": false,
+      "requires_tailored_ads_opt_in": false,
+      "minimum_age": 13,
+      "country_group": "ASIA",
+      "specific_licenses": false,
+      "terms_conditions_acceptance": "implicit",
+      "privacy_policy_acceptance": "non",
+      "spotify_marketing_messages_option": "opt_out",
+      "pretick_eula": true,
+      "show_collect_personal_info": false,
+      "use_all_genders": true,
+      "use_other_gender": true,
+      "use_prefer_not_to_say_gender": true,
+      "show_non_required_fields_as_optional": false,
+      "date_endianness": 0,
+      "is_country_launched": true,
+      "allowed_calling_codes": [
+        {
+          "country_code": "AE",
+          "calling_code": "+971"
+        },
+        {
+          "country_code": "AR",
+          "calling_code": "+54"
+        },
+        {
+          "country_code": "BR",
+          "calling_code": "+55"
+        },
+        {
+          "country_code": "CL",
+          "calling_code": "+56"
+        },
+        {
+          "country_code": "CO",
+          "calling_code": "+57"
+        },
+        {
+          "country_code": "DZ",
+          "calling_code": "+213"
+        },
+        {
+          "country_code": "EC",
+          "calling_code": "+593"
+        },
+        {
+          "country_code": "EG",
+          "calling_code": "+20"
+        },
+        {
+          "country_code": "GH",
+          "calling_code": "+233"
+        },
+        {
+          "country_code": "HK",
+          "calling_code": "+852"
+        },
+        {
+          "country_code": "ID",
+          "calling_code": "+62"
+        },
+        {
+          "country_code": "IN",
+          "calling_code": "+91"
+        },
+        {
+          "country_code": "KE",
+          "calling_code": "+254"
+        },
+        {
+          "country_code": "MA",
+          "calling_code": "+212"
+        },
+        {
+          "country_code": "MX",
+          "calling_code": "+52"
+        },
+        {
+          "country_code": "NG",
+          "calling_code": "+234"
+        },
+        {
+          "country_code": "PE",
+          "calling_code": "+51"
+        },
+        {
+          "country_code": "SA",
+          "calling_code": "+966"
+        },
+        {
+          "country_code": "TH",
+          "calling_code": "+66"
+        },
+        {
+          "country_code": "TZ",
+          "calling_code": "+255"
+        },
+        {
+          "country_code": "UG",
+          "calling_code": "+256"
+        },
+        {
+          "country_code": "VN",
+          "calling_code": "+84"
+        },
+        {
+          "country_code": "ZA",
+          "calling_code": "+27"
+        }
+      ],
+      "push-notifications": true
+    }
+  },
+  {
+    "site": "Twitter",
+    "url": "https://api.twitter.com/i/users/email_available.json?email=bisenranjeet043@gmail.com",
+    "status_code": 200,
+    "is_registered": true,
+    "response_text_snippet": "{\"valid\":false,\"msg\":\"Email has already been taken.\",\"taken\":true}",
+    "json_response": {
+      "valid": false,
+      "msg": "Email has already been taken.",
+      "taken": true
+    }
+  },
+  {
+    "site": "NetShoes",
+    "url": "https://www.netshoes.com.br/auth/account/exists/bisenranjeet043@gmail.com",
+    "status_code": 403,
+    "is_registered": "unknown",
+    "response_text_snippet": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;netshoes&#46;com&#46;br&#47;auth&#47;account&#47;exists&#47;bisenranjeet043&#64;gmail&#46;com\" on this server.<P>\nReference&#32;&#35;18&#46;dadc55b8&#46;17",
+    "json_response": null
+  },
+  {
+    "site": "OLX",
+    "url": "https://apigw.olx.com.br/v0/user/login/check_email",
+    "status_code": 403,
+    "is_registered": "unknown",
+    "response_text_snippet": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+    "json_response": null
+  },
+  {
+    "site": "Milanuncios",
+    "url": "https://userprofiles.gw.milanuncios.com/api/v2/users",
+    "status_code": 403,
+    "is_registered": "unknown",
+    "response_text_snippet": "<!DOCTYPE html>\n<html>\n    <head>\n        <noscript>\n            <title>Pardon Our Interruption</title>\n        </noscript>\n\n        <meta name=\"viewport\" content=\"width=1000\">\n        <meta name=\"robots\" content=\"noindex, nofollow\">\n        <meta http-equiv=\"cache-control\" content=\"no-cache, no-sto",
+    "json_response": null
+  },
+  {
+    "site": "El Mundo",
+    "url": "https://seguro.elmundo.es/ueregistro/v2/usuarios/registro",
+    "status_code": 400,
+    "is_registered": "unknown",
+    "response_text_snippet": "{\"status\":\"NOK\",\"data\":{\"codigo\":\"001\",\"descripcion\":\"Error en la validación de los campos de entrada\",\"mensajes\":[{\"nombreCampo\":\"clave\",\"mensaje\":\"La longitud mínima de la clave son 8 caracteres\"}]}}",
+    "json_response": {
+      "status": "NOK",
+      "data": {
+        "codigo": "001",
+        "descripcion": "Error en la validación de los campos de entrada",
+        "mensajes": [
+          {
+            "nombreCampo": "clave",
+            "mensaje": "La longitud mínima de la clave son 8 caracteres"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "site": "Picsart",
+    "url": "https://api.picsart.com/users/email/existence?email_encoded=0&emails=bisenranjeet043@gmail.com",
+    "status_code": 403,
+    "is_registered": "unknown",
+    "response_text_snippet": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+    "json_response": null
+  },
+  {
+    "site": "Eventbrite",
+    "url": "https://www.eventbrite.com/api/v3/users/lookup/",
+    "status_code": 200,
+    "is_registered": true,
+    "response_text_snippet": "{\"user_id\":\"1176339002083\",\"can_login\":true,\"exists\":true,\"is_email_verified\":false,\"sign_in_methods\":[\"password\"],\"enable_auth0_login_for_user\":false,\"auth0_redirect_url\":null}",
+    "json_response": {
+      "user_id": "1176339002083",
+      "can_login": true,
+      "exists": true,
+      "is_email_verified": false,
+      "sign_in_methods": [
+        "password"
+      ],
+      "enable_auth0_login_for_user": false,
+      "auth0_redirect_url": null
+    }
+  },
+  {
+    "site": "Imageshack",
+    "url": "https://imageshack.com/rest_api/v2/user",
+    "status_code": 500,
+    "is_registered": "unknown",
+    "response_text_snippet": "{\"success\":false,\"process_time\":3,\"result\":false,\"error\":{\"error_code\":4,\"error_message\":\"Missing capcha response\"}}\n",
+    "json_response": {
+      "success": false,
+      "process_time": 3,
+      "result": false,
+      "error": {
+        "error_code": 4,
+        "error_message": "Missing capcha response"
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+pyfiglet
+rich
+requests
+fastapi
+uvicorn[standard]
+python-multipart
+beautifulsoup4
+sse-starlette
+
