@@ -10,4 +10,4 @@ if __name__ == "__main__":
     print("  |    THIRD-EYE - OSINT Web GUI        |")
     print("  |    http://localhost:8080             |")
     print("  +======================================+\n")
-    uvicorn.run("api.server:app", host="127.0.0.1", port=8080, reload=True)
+        uvicorn.run("api.server:app",host="0.0.0.0", port=port)
